@@ -1,6 +1,7 @@
 package org.hofi;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.servlet.AsyncContext;
 import javax.servlet.annotation.WebServlet;
@@ -15,7 +16,7 @@ import java.util.TimerTask;
 @WebServlet(urlPatterns={"/async"}, asyncSupported=true)
 public class AsyncServlet extends HttpServlet {
 
-  private static Logger logger = Logger.getLogger(AsyncServlet.class);
+  private static Logger logger = LogManager.getLogger(AsyncServlet.class);
 
   public void doPost(HttpServletRequest req, HttpServletResponse resp) {
 
