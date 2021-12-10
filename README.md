@@ -1,1 +1,1 @@
-# java_async_servlet mit keep-alive [![Build Status](https://travis-ci.org/hofiorg/java_async_servlet.svg?branch=master)](https://travis-ci.org/hofiorg/java_async_servlet)
+# java_async_servlet mit keep-alive ![maven workflow](https://github.com/github/hofiorg/actions/workflows/maven.yml/badge.svg)
